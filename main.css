@@ -1,0 +1,80 @@
+body {
+    background-color: #051014;
+    font-family: 'Roboto', sans-serif;
+}
+
+#all {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 100px auto auto auto;
+    width: 800px;
+    height: 800px;
+}
+
+/* ================ Product cards ================ */
+.product {
+    margin: 10px;
+    width: 230px;
+    height: auto;
+    background-color: #6D545D;
+    border: rgb(170, 169, 169) 2px solid;
+    border-radius: 5px;
+    padding-right: 5px;
+}
+
+/* Product names (h2) */
+h2 {
+    color: #051014;
+    padding-bottom: 15px;
+    border-bottom: lightblue 1px solid;
+}
+
+img {
+    margin-top: 5px;
+    width: 200px;
+    height: 175px;
+}
+
+.info-text {
+    text-align: justify;
+    padding: 15px;
+}
+
+.availability {
+    font-size: small;
+    text-align: left;
+    padding: 5px 0 5px 10px;
+    color: #BED558;
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    font-weight: 650;
+}
+
+/* To push the <p>s inside of .specifications and .pricing to slightly to the right */
+
+.specifications p, .pricing p {
+    padding-left: 5px;
+}
+
+/* For aligning the text to the left */
+.specifications, header, .pricing, .valid {
+    text-align: left;
+}
+
+.specifications, .pricing {
+    font-size: medium;
+    padding: 6px 0 0 6px;
+}
+
+.specifications p, .pricing p {
+    margin: 0;
+}
+
+.valid {
+    font-size: small;
+    padding-left: 4px;
+}
